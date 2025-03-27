@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, /personal/rfagya27/CS232/Project1/prime.bdf
+source_file = 1, /personal/rfagya27/CS232/Project1/db/prime.cbx.xml
+design_name = prime
+instance = comp, \F~output\, F~output, prime, 1
+instance = comp, \B~input\, B~input, prime, 1
+instance = comp, \D~input\, D~input, prime, 1
+instance = comp, \A~input\, A~input, prime, 1
+instance = comp, \C~input\, C~input, prime, 1
+instance = comp, \inst9~0\, inst9~0, prime, 1
